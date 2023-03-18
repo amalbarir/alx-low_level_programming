@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * description : 'last digit of the number stored in the variable n'
- * Return : Always 0 (success)
+ * Return : Always 0
  */
 int main(void)
 {
@@ -12,6 +12,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	store = n % 10;
 	if (store > 5)
 		printf("last digit of %d is %d and is greater than 5\n", n, store);
 	else if (store == 0)
