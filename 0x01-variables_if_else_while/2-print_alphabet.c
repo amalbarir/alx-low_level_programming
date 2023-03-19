@@ -7,7 +7,8 @@
   */
 int main(void)
 {
-	char i,z;
+	char i, z;
+
 	i = 'a';
 	z = 'z';
 
