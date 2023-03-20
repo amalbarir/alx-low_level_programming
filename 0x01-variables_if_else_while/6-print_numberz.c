@@ -1,15 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-
+/**
+* main - Entry point
+* Description: 'checks the task
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-    int i = 0;
+	int i = 0;
 
-    while (i < 10)
+	while (i <= 9)
 	{
-		putchar(i +'0');
+		putchar(i + '0');
 		i++;
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
