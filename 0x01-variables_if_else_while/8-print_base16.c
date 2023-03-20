@@ -16,8 +16,7 @@ int main(void)
 	{
 		putchar(i + '0');
 		i++;
-	}
-	
+	}	
 	while (a <= f)
 	{
 		putchar(a);
