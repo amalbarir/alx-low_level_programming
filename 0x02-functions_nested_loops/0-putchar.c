@@ -1,11 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main()
+/**
+  *main - entry point
+  *Description: Task
+  *Return: always 0
+*/
+
+int main(void)
 {
-    char _putchar ;
+	int i = 0;
+	char *str = "_putchar\n";
 
-    printf("-putchar\n");
-
-    return (0);
+	while (str[i])
+	{
+		putchar(str[i]);
+		i++;
+	}
+	return (0);
 }
