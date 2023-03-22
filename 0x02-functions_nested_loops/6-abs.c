@@ -6,17 +6,9 @@
  * Return: void
  */
 
-int _abs(int n)
+int _abs(int a)
 {
-	if (n < 0)
-	{
-		_putchar('-');
-		_putchar(n);
-	}
-	else 
-        {
-		_putchar(n);
-	}
-    
-	return (1);
+	if (a < 0)
+		return (-a);
+	return (a);
 }
