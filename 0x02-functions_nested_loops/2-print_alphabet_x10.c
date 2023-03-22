@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /**
  * print_alphabet_x10 - prints the alphabet in lowercase 10 times
@@ -17,11 +17,11 @@ void print_alphabet_x10(void)
 		a = 'a';
 		while (a <= 'z')
 		{
-			printf("%c", a);
+			_putchar(a);
 			a++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		i++;
 	}
-	return(0);
+	
 }
