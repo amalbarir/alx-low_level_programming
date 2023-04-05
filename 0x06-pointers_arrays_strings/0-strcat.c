@@ -4,7 +4,7 @@
  * _strcat - a function that print n elem of array
  * @dest: pointer variable
  * @src: variable
- * return: void return nothing
+ * Return: void return nothing
  */
 char *_strcat(char *dest, char *src)
 {
